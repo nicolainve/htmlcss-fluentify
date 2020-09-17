@@ -60,6 +60,29 @@ a {
   color: #5586bc;
 }
 
+p {
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 56px;
+  color: #fff;
+  margin: 30px 0;
+}
+
+h2 {
+  margin: 15px 0;
+  font-size: 28px;
+  color: #000;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+}
+
 .text-center {
   text-align: center;
 }
@@ -79,17 +102,26 @@ a {
   text-transform: uppercase;
   border-radius: 5px;
   background: #7cbb02;
+  color: #fff;
 }
 
 .btn-inherit {
-    background: inherit;
-    border: 1px solid #fff;
+  background: inherit;
+  border: 1px solid #fff;
+}
+
+.btn-large {
+  padding: 20px;
 }
 
 /* HEADER */
 .main-header {
-  height: 500px;
+  height: 560px;
   background: #0c325a;
+  background-image: url("../img/background-header.png");
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  background-position: right bottom;
 }
 
 .header-nav {
@@ -121,24 +153,36 @@ a {
 }
 
 /* Jumbotron */
+
 .jumbotron {
-  height: 400px;
-  background: violet;
+  position: relative;
+  height: 480px;
+}
+
+.jumbotron-text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
 }
 
 /* MAIN */
 
 /* Efficiency */
 .efficiency {
-  height: 200px;
-  background: grey;
+  padding: 40px;
+  background-color: #d3d3d3;
 }
 
 /* Info */
-.info .col-3 {
-  height: 400px;
-  background: violet;
-  border: 5px solid black;
+
+.info {
+  padding: 40px 0;
+}
+
+.info img {
+  height: 150px;
+  margin: 10px 0;
 }
 
 /* Plan */
