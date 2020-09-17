@@ -79,6 +79,7 @@ h1 {
 h2 {
   font-size: 28px;
   color: #000;
+  margin: 15px 0;
 }
 
 h1,
@@ -224,6 +225,10 @@ h3 {
 footer {
   background: #d3d3d3;
   line-height: 150px;
+}
+
+footer h2 {
+  margin: 0;
 }
 
 footer .select {
