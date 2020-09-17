@@ -212,12 +212,22 @@ h3 {
 
 /* FOOTER */
 footer {
-  height: 300px;
-  background: grey;
+  background: #d3d3d3;
+  line-height: 120px;
 }
 
-footer .col-2 {
-  height: 300px;
-  background: violet;
-  border: 5px solid black;
+footer .select {
+  position: relative;
+  border-bottom: 1px solid #808080;
+  line-height: 25px;
+  font-size: 18px;
+  width: 180px;
+  text-align: left;
+}
+
+footer .select i {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
