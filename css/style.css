@@ -109,6 +109,14 @@ h3 {
   color: #fff;
 }
 
+.btn:hover {
+  background: rgba(124, 187, 2, 0.5);
+}
+
+.btn-inherit:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
 .btn-inherit {
   background: inherit;
   border: 1px solid #fff;
