@@ -15,7 +15,7 @@ body {
 
 /* Layout */
 .container {
-  width: 2000px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -43,9 +43,47 @@ body {
   width: calc(100% / 3);
 }
 
+/* Menu */
+.list-inline li {
+  display: inline-block;
+  padding: 0 10px;
+}
+.list-inline li:first-child {
+    padding-left: 0;
+}
+.list-inline li:last-child {
+    padding-right: 0;
+}
+
 /* Tipography */
+a {
+  color: #5586bc;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  min-width: 100px;
+  line-height: 25px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background: #7cbb02;
+}
+
+.btn-inherit {
+    background: inherit;
+    border: 1px solid #fff;
 }
 
 /* HEADER */
@@ -55,26 +93,31 @@ body {
 }
 
 .header-nav {
-  height: 100px;
-  background: grey;
+  line-height: 80px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.header-nav img {
+  vertical-align: middle;
+}
+
+
+.header-nav a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .header-nav-left {
-  height: 100%;
   width: 15%;
-  background: yellow;
 }
 
 .header-nav-center {
-  height: 100%;
   width: 45%;
-  background: red;
 }
 
 .header-nav-right {
-  height: 100%;
   width: 40%;
-  background: green;
 }
 
 /* Jumbotron */
