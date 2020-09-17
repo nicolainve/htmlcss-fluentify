@@ -10,3 +10,109 @@ body {
   color: #808080;
   font-size: 16px;
 }
+
+/* UTILITIES */
+
+/* Layout */
+.container {
+  width: 2000px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.col-2 {
+  float: left;
+  width: calc(100% / 2);
+}
+
+.col-3 {
+  float: left;
+  width: calc(100% / 3);
+}
+
+/* Tipography */
+.text-center {
+  text-align: center;
+}
+
+/* HEADER */
+.main-header {
+  height: 500px;
+  background: #0c325a;
+}
+
+.header-nav {
+  height: 100px;
+  background: grey;
+}
+
+.header-nav-left {
+  height: 100%;
+  width: 15%;
+  background: yellow;
+}
+
+.header-nav-center {
+  height: 100%;
+  width: 45%;
+  background: red;
+}
+
+.header-nav-right {
+  height: 100%;
+  width: 40%;
+  background: green;
+}
+
+/* Jumbotron */
+.jumbotron {
+  height: 400px;
+  background: violet;
+}
+
+/* MAIN */
+
+/* Efficiency */
+.efficiency {
+  height: 200px;
+  background: grey;
+}
+
+/* Info */
+.info .col-3 {
+  height: 400px;
+  background: violet;
+  border: 5px solid black;
+}
+
+/* Plan */
+.col {
+  height: 400px;
+  background: violet;
+  border: 5px solid black;
+}
+
+/* FOOTER */
+footer {
+  height: 300px;
+  background: grey;
+}
+
+footer .col-2 {
+  height: 300px;
+  background: violet;
+  border: 5px solid black;
+}
