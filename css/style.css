@@ -63,6 +63,7 @@ a {
 p {
   line-height: 1.5;
   font-size: 18px;
+  margin: 20px 0;
 }
 
 h1 {
@@ -178,6 +179,7 @@ h3 {
 
 .info {
   padding: 40px 0;
+  border-bottom: 1px solid lightgray;
 }
 
 .info img {
@@ -185,11 +187,27 @@ h3 {
   margin: 10px 0;
 }
 
+.info h3 {
+  font-size: 28px;
+  color: #7cbb02;
+}
+
+.info h3::after {
+    content: '';
+    display: block;
+    width: 120px;
+    height: 1px;
+    margin: 25px auto;
+    background: gray;
+}
+
+.info .col-3 {
+  padding: 0 20px;
+}
+
 /* Plan */
-.col {
-  height: 400px;
-  background: violet;
-  border: 5px solid black;
+.plan .col {
+  padding: 50px;
 }
 
 /* FOOTER */
