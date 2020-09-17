@@ -19,6 +19,10 @@ body {
   margin: 0 auto;
 }
 
+.padding {
+  padding: 40px 0;
+}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -73,7 +77,6 @@ h1 {
 }
 
 h2 {
-  margin: 15px 0;
   font-size: 28px;
   color: #000;
 }
@@ -171,7 +174,6 @@ h3 {
 
 /* Efficiency */
 .efficiency {
-  padding: 40px;
   background-color: #d3d3d3;
 }
 
@@ -207,13 +209,13 @@ h3 {
 
 /* Plan */
 .plan .col {
-  padding: 50px;
+  padding: 0 40px;
 }
 
 /* FOOTER */
 footer {
   background: #d3d3d3;
-  line-height: 120px;
+  line-height: 150px;
 }
 
 footer .select {
@@ -232,6 +234,7 @@ footer .select i {
   transform: translateY(-50%);
 }
 
+/* Help button */
 .help {
     position: fixed;
     bottom: 0;
